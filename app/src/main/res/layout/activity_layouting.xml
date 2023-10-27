@@ -62,11 +62,33 @@
             android:inputType="numberDecimal"
             />
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewgroup3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/viewgroup2"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:id="@+id/labeltinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00695f"
+            android:text="Tinggi"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputTinggi"
+            android:layout_below="@id/labeltinggi"
+            android:hint="masukkan tinggi"
+            android:inputType="numberDecimal"/>
+    </RelativeLayout>
     <TextView
         android:id="@+id/text_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/viewgroup2"
+        android:layout_below="@+id/viewgroup3"
         android:layout_marginTop="30dp"
         android:textSize="35dp"
         android:textAlignment="center"
