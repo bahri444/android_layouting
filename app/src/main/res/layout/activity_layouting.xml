@@ -5,18 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff8e1"
     tools:context=".LayoutingActifity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aplikasi Penghitung Volume"
+        android:text="Hitung Volume"
         android:textAlignment="center"
         android:textSize="25dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="20dp"
         android:id="@+id/form_title"
-        android:textColor="#00695f"
-        />
+        android:textColor="#ff6f00"/>
     <RelativeLayout
         android:id="@+id/viewgroup1"
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:id="@+id/label1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#00695f"
+            android:textColor="#ff6f00"
             android:text="Panjang"/>
         <EditText
             android:id="@+id/inputPanjang"
@@ -51,7 +51,7 @@
             android:id="@+id/label2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#00695f"
+            android:textColor="#ff6f00"
             android:text="Lebar"/>
         <EditText
             android:id="@+id/inputLebar"
@@ -74,7 +74,7 @@
             android:id="@+id/labeltinggi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#00695f"
+            android:textColor="#ff6f00"
             android:text="Tinggi"/>
         <EditText
             android:layout_width="match_parent"
@@ -93,13 +93,13 @@
         android:textSize="35dp"
         android:textAlignment="center"
         android:text="0"
-        android:textColor="#00695f"/>
+        android:textColor="#ff6f00"/>
     <Button
         android:id="@+id/tombol_hitung"
         android:layout_below="@+id/text_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#009688"
+        android:backgroundTint="#ff6f00"
         android:text="HITUNG"
         android:textSize="18dp"
         android:layout_marginLeft="20dp"

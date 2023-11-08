@@ -13,6 +13,7 @@ class LayoutingActifity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityLayoutingBinding.inflate(layoutInflater)
         setContentView(binding.root)  //dapat menggantikan pemanggilan view xml
+
         binding.tombolHitung.setOnClickListener {
             val panjang = binding.inputPanjang.text.toString()
             val lebar = binding.inputLebar.text.toString()

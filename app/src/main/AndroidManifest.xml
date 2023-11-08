@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Android_layouting"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActifity"
+            android:exported="false" />
+        <activity
             android:name=".LayoutingActifity"
             android:exported="false" />
         <activity

@@ -6,124 +6,120 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2196f3"
+    android:background="#fff8e1"
     tools:context=".MainActivity">
-
-    <ImageView
-        android:layout_gravity="center"
-        android:src="@drawable/logo_kampus"
-        android:layout_width="100dp"
-        android:layout_marginTop="40dp"
-        android:layout_height="100dp"/>
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="STMIK Lombok"
-        android:textColor="#ffffff"
-        android:layout_marginTop="20dp"
-        android:textSize="25dp"
-        android:textAlignment="center"
-        android:id="@+id/textone"/>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nama :"
-            android:textColor="#ffffff"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="20dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text=" Saepul Bahri"
-            android:textAlignment="center"
-            android:textColor="#212121"
-            android:textSize="20dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Alamat :"
-            android:textColor="#ffffff"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="20dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text=" Melar desa selebung"
-            android:textAlignment="center"
-            android:textColor="#212121"
-            android:textSize="20dp" />
-    </LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/logo_kampus"
+            android:layout_width="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="100dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prodi :"
-            android:textColor="#ffffff"
+            android:text="STMIK Lombok"
+            android:textColor="#ff6f00"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="20dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text=" Informatika"
+            android:textSize="25dp"
             android:textAlignment="center"
-            android:textColor="#212121"
-            android:textSize="20dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <TextView
+            android:id="@+id/textone"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama :"
+                android:textColor="#ff6f00"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" Saepul Bahri"
+                android:textAlignment="center"
+                android:textColor="#ff6f00"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                android:textColor="#ff6f00"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" Melar desa selebung"
+                android:textAlignment="center"
+                android:textColor="#ff6f00"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prodi :"
+                android:textColor="#ff6f00"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" Informatika"
+                android:textAlignment="center"
+                android:textColor="#ff6f00"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semester :"
+                android:textColor="#ff6f00"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" VII (Tujuh)"
+                android:textAlignment="center"
+                android:textColor="#ff6f00"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/LoginPageButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Semester :"
+            android:backgroundTint="#ff6f00"
             android:textColor="#ffffff"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="20dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text=" VII (Tujuh)"
-            android:textAlignment="center"
-            android:textColor="#212121"
-            android:textSize="20dp" />
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="LOGIN PAGE"/>
     </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#212121"
-        android:textColor="#ffffff"
-        android:textSize="18dp"
-        android:layout_margin="20dp"
-        android:text="Click Me"/>
-    <Button
-        android:id="@+id/button_call_tugaslayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#212121"
-        android:textColor="#ffffff"
-        android:textSize="18dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:text="Hitung luas"/>
-
-
 </LinearLayout>
